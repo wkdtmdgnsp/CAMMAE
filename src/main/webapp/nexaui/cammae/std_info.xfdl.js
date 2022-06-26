@@ -184,14 +184,14 @@
 
             obj = new Static("Static00_00","24","36","50","20",null,null,null,null,null,null,this.Div00.form);
             obj.set_taborder("1");
-            obj.set_text("학번");
+            obj.set_text("이름");
             obj.set_textAlign("center");
             obj.set_font("normal bold 10pt/normal \"Arial\"");
             this.Div00.addChild(obj.name, obj);
 
             obj = new Static("Static00_00_00","24","66","50","20",null,null,null,null,null,null,this.Div00.form);
             obj.set_taborder("2");
-            obj.set_text("이름");
+            obj.set_text("학번");
             obj.set_textAlign("center");
             obj.set_font("normal bold 10pt/normal \"Arial\"");
             this.Div00.addChild(obj.name, obj);
